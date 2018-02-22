@@ -15,7 +15,6 @@ func TestDict(t *testing.T) {
 	}
 
 	lines := strings.Split(string(content), "\n")
-	lines = lines[:1]
 
 	encoder := compressuricomponent.NewEncoder(Dict)
 	decoder := compressuricomponent.NewDecoder(Dict)
